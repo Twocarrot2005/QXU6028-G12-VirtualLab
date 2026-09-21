@@ -1,0 +1,13 @@
+{
+  "columns": [
+    "measurement_index",
+    "repeat",
+    "R_H_raw",
+    "R_xx_raw"
+  ],
+  "T_K": 300.0,
+  "note": "Pairs in measurement order. Normalise, assign a Fermi level to each pair, recover the DoS class, the gap, and the Fermi-level trajectory.",
+  "group": "G12",
+  "dataset_set": "regular",
+  "schema_version": "QXU6028-data-v1"
+}

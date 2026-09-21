@@ -1,0 +1,19 @@
+{
+  "npix": 10,
+  "region": "6s x 6s, s=probe pitch",
+  "placements": 64,
+  "orientations": 2,
+  "note": "A is the forward matrix (M x N). d has 3 repeats. Reconstruct the zero-mean non-uniformity map, locate features, state resolution and detection limit, and decide pass/fail against the announced spec.",
+  "group": "G12",
+  "dataset_set": "regular",
+  "schema_version": "QXU6028-data-v1",
+  "matrix_shape": [
+    128,
+    100
+  ],
+  "readings_shape": [
+    3,
+    128
+  ],
+  "row_sum_projection": "A <- A - row_mean(A)"
+}

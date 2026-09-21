@@ -1,0 +1,25 @@
+{
+  "schema_version": "QXU6028-results-v1",
+  "group": "G12",
+  "dataset_set": "regular",
+  "pipeline_commit": "REPLACE_WITH_GIT_COMMIT_HASH",
+  "L1": {
+    "correction_factor": 2.8468448007022307,
+    "n_fermi_op_cm2": 443401519520.3581,
+    "mobility_corrected_cm2_Vs": 43413.78745579022
+  },
+  "L2": {
+    "model": null,
+    "Eg_kT": null,
+    "Eg_uncertainty_kT": null,
+    "EF_trajectory_eV": []
+  },
+  "L3": {
+    "map": [],
+    "features": [],
+    "resolution_probe_pitch": null,
+    "detection_limit_fraction": null,
+    "pass": null,
+    "confidence": null
+  }
+}
