@@ -1,0 +1,27 @@
+[run  ] data=data\regular_GNN  out=outputs  only=l1  spec=None
+
+================ L1 forward carrier counting ================
+[params] c=0.046329815372874394  T=300.0 K  EF_op=0.110610 eV  rho_op=324.2386 ohm/sq
+[gate ] E_F=0.000 eV  C= 1.0000 (expect ~1.00)  [PASS]
+[gate ] E_F=0.073 eV  C= 2.0049 (expect ~2.00)  [PASS]
+[gate ] E_F=0.100 eV  C= 2.5988 (expect ~2.60)  [PASS]
+[gate ] E_F=0.200 eV  C= 5.1044 (expect ~5.10)  [PASS]
+[check] n_F numerical vs closed form: max rel diff 4.02e-07
+[result] C=2 at E_F=0.07265174803587815 eV ; C=4 at E_F=0.15730158118131016 eV
+[info ] nearest CSV row E_F=0.1100 (C=2.832); EXACT point gives C=2.8468
+[result] n_F(op)=4.475962e+11 cm^-2   C(op)=2.846845
+[result] mu_band=1.5107e+04  mu_corrected=4.3007e+04 cm^2 V^-1 s^-1  (= 2.8468 x mu_band)
+[template] using data\regular_GNN\results_template.json
+[WARN] results.json still has unfilled fields:
+       results.L2.model
+       results.L2.Eg_kT
+       results.L2.Eg_uncertainty_kT
+       results.L2.EF_trajectory_eV (empty)
+       results.L3.map (empty)
+       results.L3.resolution_probe_pitch
+       results.L3.detection_limit_fraction
+       results.L3.pass
+       results.L3.confidence
+       -> supply --spec (Session 3 threshold) and rerun.
+[done ] commit 451d4f00da0ac2d486bae77926a3e8b75839888c
+[done ] outputs in outputs: ['GNN_L1_Checkpoint.zip', 'L1_figure.png', 'L1_note.md', 'commit_hash.txt', 'l1_diagnostics.json', 'results.json', 'run_log.txt']
