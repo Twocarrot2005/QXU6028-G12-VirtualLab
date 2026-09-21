@@ -1,0 +1,5 @@
+# QXU6028 G12 pipeline dependencies
+# Python >= 3.10 required (guide p.2)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
