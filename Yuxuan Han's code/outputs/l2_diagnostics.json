@@ -1,0 +1,17 @@
+{
+  "model": "hard_gap",
+  "Eg_kT": 2.75,
+  "Eg_median_kT": 2.75,
+  "Eg_p16": 2.75,
+  "Eg_p84": 3.0,
+  "hard_gap_fraction": 1.0,
+  "r_cone": 0.08320637349358292,
+  "r_best_gap": 0.012767851341840242,
+  "rms_selected": 0.012767851341840242,
+  "sign_change_bracket": [
+    33,
+    34
+  ],
+  "seed": 20262712,
+  "n_boot": 200
+}
